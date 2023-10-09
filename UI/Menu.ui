@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>基于ChatGPT的幼儿园管理系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLineEdit{
+	border:0px; margin:10px;
+     margin-left:50px;
+     margin-right:50px;
+     border-bottom: 2px solid #B3B3B3;
+     font-family: &quot;Microsoft Yahei&quot;;
+     font-size:    20px;
+     font-wight: blod;
+}
+
+QLineEdit:Focus{
+    border-bottom: 3px soild  #E680BD
+}</string>
+  </property>
+  <widget class="QPushButton" name="User_Manager">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>120</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>账号管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Student_Manager">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>学生信息管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Teacher_Manager">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>390</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>教职工信息管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Canteen_Manager">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>390</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>食堂管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Things_Manager">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>170</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>账号管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Teach_Manager">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>270</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>教学管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Exit">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>530</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
