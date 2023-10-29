@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ChangeUser</class>
- <widget class="QWidget" name="ChangeUser">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,14 +11,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>修改用户</string>
+   <string>删除用户</string>
   </property>
   <widget class="QLabel" name="remind">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>110</y>
-     <width>331</width>
+     <x>490</x>
+     <y>120</y>
+     <width>371</width>
      <height>31</height>
     </rect>
    </property>
@@ -29,15 +29,15 @@
     </font>
    </property>
    <property name="text">
-    <string>请输入需要修改的修改的值，留空即为不修改</string>
+    <string>您确认要删除账号吗？请再次输入用户名和密码</string>
    </property>
   </widget>
   <widget class="QLabel" name="username">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>180</y>
-     <width>71</width>
+     <x>350</x>
+     <y>220</y>
+     <width>81</width>
      <height>31</height>
     </rect>
    </property>
@@ -48,15 +48,15 @@
     </font>
    </property>
    <property name="text">
-    <string>用户名</string>
+    <string>用户名：</string>
    </property>
   </widget>
   <widget class="QLabel" name="password">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>260</y>
-     <width>71</width>
+     <x>350</x>
+     <y>320</y>
+     <width>81</width>
      <height>31</height>
     </rect>
    </property>
@@ -70,79 +70,50 @@
     <string>密码</string>
    </property>
   </widget>
-  <widget class="QLabel" name="role">
+  <widget class="QLineEdit" name="username_edit">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>340</y>
-     <width>71</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>权限</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="UserNameEdit">
-   <property name="geometry">
-    <rect>
-     <x>600</x>
-     <y>180</y>
-     <width>251</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
-   <property name="geometry">
-    <rect>
-     <x>600</x>
-     <y>260</y>
-     <width>251</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>600</x>
-     <y>340</y>
-     <width>251</width>
+     <x>510</x>
+     <y>220</y>
+     <width>221</width>
      <height>31</height>
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="Changebutton">
+  <widget class="QLineEdit" name="password_edit">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>510</x>
+     <y>320</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ConfirmButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
      <y>450</y>
-     <width>81</width>
-     <height>31</height>
+     <width>75</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="text">
-    <string>修改</string>
+    <string>确认删除</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="returnbutton">
+  <widget class="QPushButton" name="return_2">
    <property name="geometry">
     <rect>
-     <x>800</x>
+     <x>700</x>
      <y>450</y>
-     <width>81</width>
-     <height>31</height>
+     <width>75</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="text">
-    <string>返回</string>
+    <string>取消</string>
    </property>
   </widget>
  </widget>

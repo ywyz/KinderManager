@@ -10,7 +10,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtWidgets import QWidget
 from qt_material import apply_stylesheet
 
-class Menu_Form(QWidget):
+class Ui_Menu(QWidget):
     def setupUi(self, Form):
         apply_stylesheet(Form, theme='light_blue.xml')
         Form.setObjectName("Form")

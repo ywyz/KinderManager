@@ -1,7 +1,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QWidget
 from UI.Login import Ui_Login
-from UI.Menu import Menu_Form
+from UI.Menu import Ui_Menu
 from qt_material import apply_stylesheet
 
 if __name__ == "__main__":
@@ -13,7 +13,7 @@ if __name__ == "__main__":
     widget.setStyleSheet("#MyWidget{border-image:url(Background.png);}")
     #ui = Ui_Login()
     #ui.setupUi(widget)
-    Menu = Menu_Form()
+    Menu = Ui_Menu()
     Menu.setupUi(widget)
 
     widget.show()

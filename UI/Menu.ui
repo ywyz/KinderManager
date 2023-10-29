@@ -141,7 +141,7 @@ border-image:url(Background.png)</string>
     <string/>
    </property>
   </widget>
-  <widget class="QMenuBar" name="listWidget">
+  <widget class="QToolBar" name="listWidget">
    <property name="geometry">
     <rect>
      <x>60</x>
